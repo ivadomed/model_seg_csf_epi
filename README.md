@@ -27,5 +27,5 @@ cd ..
 
 ### Scripts
 
-- [BIDSify_csf_data.py](https://github.com/ivadomed/model_seg_csf_epi/blob/main/scripts/BIDSify_csf_data.py)
+- [BIDSify_csf_data.py](https://github.com/ivadomed/model_seg_csf_epi/blob/main/scripts/BIDSify_csf_data.py) - 
 Used for formatting the data into BIDS format.
