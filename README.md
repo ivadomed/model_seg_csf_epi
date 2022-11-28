@@ -14,12 +14,12 @@ git clone https://github.com/ivadomed/model_seg_csf_epi.git
 
 ## Get the data
 
-- git@data.neuro.polymtl.ca:datasets/data_gre-epi
+- git@data.neuro.polymtl.ca:datasets/mni-bmpd
 
 ### Example calls to get the data
 
 ~~~
-git clone git@data.neuro.polymtl.ca:datasets/data_gre-epi
+git clone git@data.neuro.polymtl.ca:datasets/mni-bmpd
 cd data_gre-epi
 git annex get .
 cd ..
