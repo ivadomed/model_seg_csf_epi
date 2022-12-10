@@ -88,7 +88,7 @@ def convert():
 
     # Create README
     with open(output_path + '/README', 'w') as readme_file:
-        readme_file.write('BIDSify MP2RAGE MS SEG dataset: INsIDER_SCT_Segmentations_COR.')
+        readme_file.write('BIDSify MNI-BMPD data')
 
 
     participants = []
