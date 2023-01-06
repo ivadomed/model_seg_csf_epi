@@ -20,7 +20,7 @@ git clone https://github.com/ivadomed/model_seg_csf_epi.git
 
 ~~~
 git clone git@data.neuro.polymtl.ca:datasets/mni-bmpd
-cd data_gre-epi
+cd mni-bmpd
 git annex get .
 cd ..
 ~~~
