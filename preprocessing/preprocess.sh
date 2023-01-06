@@ -1,12 +1,13 @@
 #!/bin/bash
 #
+#!/bin/bash
+#
 # Process data. 
 #     For T1 : From raw images, proceeds to resampling and reorientation to RPI.
 #     
-#     Crop all images.
-#     Generates soft segmentations.
+# Resizes the images as per the corresponding ground truth dimensions
 # Usage:
-#   ./process_data.sh <SUBJECT>
+#   preprocess_data.sh
 #
 #
 # Authors: Rohan Banerjee
