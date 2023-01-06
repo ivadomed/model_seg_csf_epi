@@ -1,16 +1,24 @@
 {
     "command": "train",
     "gpu_ids": [2],
-    "path_output": "/mnt/duke/temp/rohan/data_training_human_sc_csf_moco/initial_run",
+    "path_output": "/mnt/duke/temp/rohan/data_training_human_sc_csf/initial_run",
     "model_name": "test_model",
     "debugging": true,
     "object_detection_params": {
         "object_detection_path": null,
         "safety_factor": [1.0, 1.0, 1.0]
     },
+
+    "wandb": {
+        "wandb_api_key": "<api key>",
+        "project_name": "data_training_human_sc_csf",
+        "run_name": "run-2d"
+
+    },
+
     
     "loader_parameters": {
-        "path_data": "/mnt/duke/temp/rohan/data_training_human_sc_csf_moco/BIDS_conv",
+        "path_data": "/mnt/duke/temp/rohan/data_training_human_sc_csf/processed_data",
         "subject_selection": {"n": [], "metadata": [], "value": []},
         "target_suffix": ["_seg-manual"],
         "extensions": [".nii.gz"],
@@ -49,7 +57,7 @@
             "name": "DiceLoss"
         },
         "training_time": {
-            "num_epochs": 1,
+            "num_epochs": 20,
             "early_stopping_patience": 50,
             "early_stopping_epsilon": 0.001
         },
